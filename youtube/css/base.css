@@ -1,0 +1,50 @@
+/* Css mặc định */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #0f0f0f;
+    --text-light-color: #606060;
+    --back-color: #f2f2f2;
+    --back-color-hover: #e5e5e5;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.d-flex {
+    display: flex;
+}
+.btn {
+    padding: 0 16px;
+    height: 36px;
+    font-weight: 600;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    color: var(--text-color);
+    background-color: var(--back-color);
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--back-color-hover);
+}
+.btn.active {
+    background-color: var(--text-color);
+    color: #fff;
+}
+.btn.active:hover {
+    background-color: rgba(15, 15, 15, 0.8);
+}

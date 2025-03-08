@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/gird.css">
+    <link rel="stylesheet" href="./css/responsive-home.css">
+    <!-- Link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Link font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube</title>
+</head>
+<body>
+    <header>
+        <div class="header__left d-flex">
+            <label for="show-side-bar" class="icon__navbar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="show-side-bar" hidden>
+            <label for="show-side-bar" class="overlay"></label>
+            <div class="side-bar">
+                <div class="header__left d-flex">
+                    <label for="show-side-bar" class="icon__navbar">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span class="header__logo--name">YouTube</span>
+                        </a>
+                        <span class="header__logo--lang">VN</span>
+                    </div>
+                </div>
+                <ul class="side-bar--list">
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-video"></i>
+                            <span>Shorts</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-brands fa-square-youtube"></i>
+                            <span>Đăng kí kênh</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="side-bar--list">
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-regular fa-user"></i>
+                            <span>Bạn</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <span>Video đã xem</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>Danh sách phát</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-video"></i>
+                            <span>Video của bạn</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>xem sau</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <span>Đã thích</span>
+                        </a>
+                    </li>
+                </ul>
+                <h4>Khám phá</h4>
+                <ul class="side-bar--list">
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-fire"></i>
+                            <span>Thịnh hành</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Âm nhạc</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Trò chơi</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>Thể thao</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="side-bar--list">
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Cài đặt</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-flag"></i>
+                            <span>Nhật kí báo cáo</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-question"></i>
+                            <span>Trợ giúp</span>
+                        </a>
+                    </li>
+                    <li class="side-bar--item d-flex">
+                        <a href="">
+                            <i class="fa-solid fa-exclamation"></i>
+                            <span>Gửi ý kiến phản hồi</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="link-web">
+                    <a href="">Giới thiệu</a>
+                    <a href="">Báo chí</a>
+                    <a href="">Bản quyền</a>
+                    <a href="">Liên hệ chúng tôi</a>
+                    <a href="">Người sáng tạo</a>
+                    <a href="">Quảng cáo</a>
+                    <a href="">Nhà phát triển</a>
+                </div>
+            </div>
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span class="header__logo--name">YouTube</span>
+                </a>
+                <span class="header__logo--lang">VN</span>
+            </div>
+        </div>
+
+        <div class="header__center d-flex">
+            <form class="header__center-form d-flex">
+                <input type="search" id="search" placeholder="Tìm kiếm">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="icon__voice">
+                <i class="fa-solid fa-microphone"></i>
+                <span>Tìm kiếm bằng giọng nói</span>
+            </div>
+        </div>
+
+        <div class="header__right d-flex">
+            <div class="header__right--create d-flex">
+                <label for="show-create" class="header__right--create-content d-flex">
+                    <span>+</span>
+                    <span>Tạo</span>
+                </label>
+                <input type="checkbox" id="show-create" hidden>
+                <ul class="create-list">
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            Tải video lên
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            Phát trực tiếp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            Tạo bài đăng
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <input type="checkbox" id="notification" hidden>
+            <label for="notification" class="header__right--notification">
+                <i class="fa-regular fa-bell"></i>
+                <span>Thông báo</span>
+            </label>
+            <input type="checkbox" id="avatar" hidden>
+            <label for="avatar" class="header__right--avatar">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.PpgNItjR61S8JGnJ9OuiUwHaHa&pid=Api&P=0&h=220" alt="Avatar">
+            </label>
+        </div>
+        <div class="header__right-mobile">
+            <div class="header__right-mobile-icon">
+                <i class="fa-solid fa-tv"></i>
+            </div>
+            <div class="header__right-mobile-icon">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <label for="search-mobile" class="header__right-mobile-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </div>
+    </header>
+    <ul class="side-bar-lv2">
+        <li class="side-bar--lv2-item d-flex">
+            <a href="">
+                <i class="fa-solid fa-house"></i>
+                <span>Trang chủ</span>
+            </a>
+        </li>
+        <li class="side-bar--lv2-item d-flex">
+            <a href="">
+                <i class="fa-solid fa-video"></i>
+                <span>Shorts</span>
+            </a>
+        </li>
+        <li class="side-bar--lv2-item d-flex">
+            <a href="">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+        </li>
+        <li class="side-bar--lv2-item d-flex">
+            <a href="">
+                <i class="fa-brands fa-square-youtube"></i>
+                <span>Đăng kí kênh</span>
+            </a>
+        </li>
+        <li class="side-bar--lv2-item d-flex">
+            <a href="">
+                <i class="fa-regular fa-user"></i>
+                <span>Bạn</span>
+            </a>
+        </li>
+    </ul>
+    <main>
+        <div class="category-wrap">
+            <ul class="category-wrap-list">
+                <li class="category-wrap-item active">
+                    <a href="">Tất cả</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Trò chơi</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Âm nhạc</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Tin tức</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Trực tiếp</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Podcast</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Toán học</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Bóng đá</a>
+                </li>
+                <li class="category-wrap-item">
+                    <a href="">Hoạt họa</a>
+                </li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="grid">
+                <div class="row">
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube1.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar1.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        Nhạc Chill TikTok 2025 - Những Bản Nhạc Chill Nhẹ Nhàng Hay Nhất☘️
+                                        Nhạc Lofi Chill Buồn Hot TikTok của Mùa Đi Ngang Phố
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Mùa đi ngang phố</span>
+                                        <div  class="video-note">
+                                            <p class="video-view">53 N lượt xem</p>
+                                            <p class="video-time">3 tuần trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube2.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar2.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                       Chiếc CV này đã giúp mình Nhận Vài Chục Offer vf có Job Ngon
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Phạm Huy Hoàng</span>
+                                        <div class="video-note">
+                                            <p class="video-view">191 N lượt xem</p>
+                                            <p class="video-time">2 năm trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube3.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar3.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        Let Her Go 😭 Sad Songs 2025 💔 Best Heartfelt Music for Broken Souls 🎶 của Sunset Mood
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Sunset Mood</span>
+                                        <div class="video-note">
+                                            <p class="video-view">463 lượt xem</p>
+                                            <p class="video-time">5 giờ trước 1 giờ, 3 phút</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube4.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar4.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        14.13 Bài tập React js 02 - Hiển Thị Hộp Cảnh Báo Có sử dụng useState Reactjs
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Gà Lại Lập Trình</span>
+                                        <div class="video-note">
+                                            <p class="video-view">10 N lượt xem</p>
+                                            <p class="video-time">7 ngày trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube5.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar5.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                       Xem thử iphone 16e mới ra mắt 28/2-599$ 128GB thấy giống iphone 5
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">REVIEW CÔNG NGHỆ MỚI</span>
+                                        <div class="video-note">
+                                            <p class="video-view">84 N lượt xem</p>
+                                            <p class="video-time">1 tháng trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube6.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar6.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        BẮC BLING (BẮC NINH) | OFFICIAL MV | HOÀ MINZY ft NS XUÂN HINH x MASEW x TUẤN CRY của Hòa Minzy  
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author"></span>
+                                        <div class="video-note">
+                                            <p class="video-view">8.4 Tr lượt xem</p>
+                                            <p class="video-time">2 ngày trước 4 phút, 19 giây</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube1.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar1.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        Nhạc Chill TikTok 2025 - Những Bản Nhạc Chill Nhẹ Nhàng Hay Nhất☘️
+                                        Nhạc Lofi Chill Buồn Hot TikTok của Mùa Đi Ngang Phố
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Mùa đi ngang phố</âpn>
+                                        <div class="video-note">
+                                            <p class="video-view">53 N lượt xem</p>
+                                            <p class="video-time">3 tuần trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube2.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar2.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                       Chiếc CV này đã giúp mình Nhận Vài Chục Offer vf có Job Ngon
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Phạm Huy Hoàng</span>
+                                        <div class="video-note">
+                                            <p class="video-view">191 N lượt xem</p>
+                                            <p class="video-time">2 năm trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube3.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar3.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        Let Her Go 😭 Sad Songs 2025 💔 Best Heartfelt Music for Broken Souls 🎶 của Sunset Mood
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">Sunset Mood</span>
+                                        <div class="video-note">
+                                            <p class="video-view">463 lượt xem</p>
+                                            <p class="video-time">5 giờ trước 1 giờ, 3 phút</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube4.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar4.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        14.13 Bài tập React js 02 - Hiển Thị Hộp Cảnh Báo Có sử dụng useState Reactjs
+                                    </h3>
+                                    <span class="video-author">Gà Lại Lập Trình</span>
+                                    <div class="video-note-wrap">
+                                        <div class="video-note">
+                                            <p class="video-view">10 N lượt xem</p>
+                                            <p class="video-time">7 ngày trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube5.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar5.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                       Xem thử iphone 16e mới ra mắt 28/2-599$ 128GB thấy giống iphone 5
+                                    </h3>
+                                    <div class="video-note-wrap">
+                                        <span class="video-author">REVIEW CÔNG NGHỆ MỚI</span>
+                                        <div class="video-note">
+                                            <p class="video-view">84 N lượt xem</p>
+                                            <p class="video-time">1 tháng trước</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="video col xl-3 l-4 m-6 c-12">
+                        <a href="./video.html" class="video-link">
+                            <img class="video-img" src="./img/youtube6.avif" alt="">
+                            <div class="video-wrap">
+                                <img src="./img/avatar6.jpg" alt="Avatar" class="video-avatar">
+                                <div class="video-content">
+                                    <h3 class="video-title">
+                                        BẮC BLING (BẮC NINH) | OFFICIAL MV | HOÀ MINZY ft NS XUÂN HINH x MASEW x TUẤN CRY của Hòa Minzy  
+                                    </h3>
+                                   <div class="video-note-wrap">
+                                        <span class="video-author"></span>
+                                        <div class="video-note">
+                                            <p class="video-view">8.4 Tr lượt xem</p>
+                                            <p class="video-time">2 ngày trước 4 phút, 19 giây</p>
+                                        </div>
+                                   </div>
+                                </div>
+                                <div class="video-ellipsis">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
